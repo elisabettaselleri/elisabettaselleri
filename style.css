@@ -10,7 +10,7 @@ section.scaffal{width: 75%;}
 
 h1{font: 17.5px Courier, monospace; font-weight: bolder;}
 
-a{text-decoration: none; color: red;}
+a{text-decoration: none; color: inherit;}
 a:hover{opacity: 20%;}
 
 img{width: 100%;}
