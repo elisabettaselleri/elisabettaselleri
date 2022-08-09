@@ -2,6 +2,7 @@ body{margin: 20px 10px 20px 10px; font: 17.5px Courier, monospace;}
 
 header, nav, main{margin-bottom: 100px;}
 
+nav{line-height: 45px;}
 main{max-width: 750px;}
 
 section{margin-bottom: 75px;}
@@ -10,7 +11,6 @@ section.scaffal{width: 75%;}
 h1{font: 17.5px Courier, monospace; font-weight: bolder;}
 
 a{text-decoration: none; color: inherit;}
-nav a{margin-bottom: 45px;}
 a:hover{opacity: 20%;}
 
 img{width: 100%;}
