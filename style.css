@@ -1,0 +1,22 @@
+body{margin: 20px 10px 20px 10px; font: 17.5px Courier, monospace; max-width: 750px;}
+
+header{margin-bottom: 100px; line-height: 47px;}
+nav{margin-bottom: 100px; line-height: 45px;}
+nav.lingua{float: right; word-spacing: 20px;}
+main{margin-bottom: 100px;}
+footer{margin-bottom: 40px;}
+
+section{margin-bottom: 75px;}
+section.scaffal{width: 75%;}
+
+h1{font: 17.5px Courier, monospace; font-weight: bolder;}
+
+button{cursor: pointer; font: 13.5px Courier, monospace; background-color: white; border: 1px solid black;}
+button:hover{opacity: 20%;}
+a{text-decoration: none; color: #570808;}
+a:hover{opacity: 20%;}
+
+img{width: 100%;}
+
+#ita{display: block;}
+#fra{display: none;}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <title>Elisabetta Selleri</title>
+        <link rel="shortcut icon" href="library/icone.ico">
+
+        <meta name="description" content="">
+        <meta name="keywords" content="ceramica">
+        <meta name="author" content="Elisabetta Selleri">
+
+        <meta property="og:image" content="library/thumbnail.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="" />
+        <meta property="og:title" content="Elisabetta Selleri" />
+        <meta property="og:description" content="" />
+        <meta property="og:author" content="Elisabetta Selleri" />
+        <meta property="og:keywords" content="ceramica" />
+    </head>
+
+    <body>
+        <nav class="lingua">
+            <button onclick="showIt()">it</button>
+            <button onclick="showFr()">fr</button>
+        </nav>
+
+        <script>
+            function showFr(){
+                var x = document.getElementById("fra");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "block";
+                }
+                var x = document.getElementById("ita");
+                if (x.style.display === "none") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            function showIt(){
+                var x = document.getElementById("fra");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                }
+                var x = document.getElementById("ita");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+
+        <header>
+            <p><a href="index">Elisabetta Selleri</a></p>
+        </header>
+
+        <main id="ita">
+           <p>Da quando ho imparato a governare il pollice opponibile, ho cercato con le mani, attraverso segni, colori e volumi, le forme e le consistenze che meglio rispondevano alle loro richieste.</p>
+           <p>Sono inciampata nell’argilla qualche anno fa, e una volta finita con la faccia nella terra, ho deciso che mi piaceva star lì, e che potevo restarci, e forse ci saremmo accompagnate a lungo, e volevo sapere di più su di lei.</p>
+           <p>Ho quindi cominciato a scoprire la lunga e ramificata storia dell'argilla, che comincia tanto lontano.
+           <br>Mi sono guardata intorno e son partita lungo il sentiero più vicino.</p>
+        </main>
+
+        <main id="fra">
+            <p>Depuis que j’ai appris à gouverner le pouce opposable, mes mains ont cherché à travers des traits, couleurs et volumes, les formes et consistances qui mieux répondaient à leurs demandes.</p><p>J’ai trébuché dans l’argile il y a quelques années, et une fois la face dans la terre, j’ai décidé que j’aimais bien et je pouvais y rester, on aurait pu s’accompagner longtemps, et je voulais en savoir plus sur elle.
+            <br>J’ai donc commencé à débrouiller l’histoire longue et ramifiée de l’argile, qui commence aussi loin. J’ai regardé autour de moi et j’ai suivi le chemin le plus proche.</p> 
+        </main>
+
+        <nav>
+            <p><a href="2019-2020">&rarr; 2019 - 2020 . Dai sentieri dell'Alta Val Tidone, Emilia Romagna</a>
+            <br><a href="2020-2021">&rarr; 2020 - 2021 . Des souterrains de l'academie de Liège, Belgique</a>
+            <br><a href="2022">&rarr; 2022 . Faenza, Emilia Romagna</a></p>
+        </nav>
+
+        <footer>
+            <p>(C)2022</p>
+        </footer>
+    </body>
+</html>
