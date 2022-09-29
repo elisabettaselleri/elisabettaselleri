@@ -15,6 +15,7 @@ button{cursor: pointer; font: 13.5px Courier, monospace; background-color: white
 button:hover{opacity: 20%;}
 a{text-decoration: none; color: #570808;}
 a:hover{opacity: 20%;}
+span{opacity: 0;}
 
 img{width: 100%;}
 
