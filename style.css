@@ -1,23 +1,49 @@
-body{margin: 20px 10px 20px 10px; font: 17.5px Courier, monospace; max-width: 750px;}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-header{margin-bottom: 100px; line-height: 47px;}
-nav{margin-bottom: 100px; line-height: 45px;}
+body{
+	margin: 40px;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 14px;
+	letter-spacing: -0.1px;
+	max-width: 800px;
+	text-align: justify;
+}
+
+header, main, nav{margin-bottom: 70px;}
+section{margin-bottom: 35px;}
 nav.lingua{float: right; word-spacing: 20px;}
-main{margin-bottom: 100px;}
-footer{margin-bottom: 40px;}
 
-section{margin-bottom: 75px;}
-section.scaffal{width: 75%;}
+h1{font-size: 26px; font-weight: 200;}
 
-h1{font: 17.5px Courier, monospace; font-weight: bolder;}
-
-button{cursor: pointer; font: 13.5px Courier, monospace; background-color: white; border: 1px solid black;}
-button:hover{opacity: 20%;}
-a{text-decoration: none; color: #570808;}
-a:hover{opacity: 20%;}
 span{opacity: 0;}
+img{width: 50%;}
 
-img{width: 100%;}
+/*LINKS*/
+
+a{text-decoration: none; font-weight: 600; color: black;}
+a:hover{border-bottom: 1.5px solid black;}
+
+button{
+	cursor: pointer;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 14px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 100px;
+}
+
+button p{margin: 4px;}
+button:hover{background-color: black; color: white;}
 
 #ita{display: block;}
 #fra{display: none;}
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 800px) {
+	img{width: 75%}
+}
+
+@media only screen and (max-width: 500px) {
+	img{width: 100%}
+}
